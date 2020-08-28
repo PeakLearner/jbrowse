@@ -1,0 +1,10 @@
+[submodule "plugins/MultiBigWig"]
+	path = plugins/MultiBigWig
+	url = https://github.com/elsiklab/multibigwig.git
+[submodule "plugins/InteractivePeakAnnotator"]
+	path = plugins/InteractivePeakAnnotator
+	url = https://github.com/deltarod/interactivepeakannotator.git
+	branch = PeakLearner
+[submodule "plugins/WiggleHighlighter"]
+	path = plugins/WiggleHighlighter
+	url = https://github.com/cmdcolin/wigglehighlighter.git
