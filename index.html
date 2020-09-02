@@ -12,6 +12,8 @@
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <script type="text/javascript">
         window.onerror=function(msg){
             if( document.body )
@@ -21,6 +23,34 @@
             window.electronRequire = require;
             delete window.require;
         }
+
+        function sendPost(command, args)
+        {
+        // gets the GET request value for current tracks
+        let request = {};
+        const pairs = location.search.substring(1).split('&');
+        for (let i = 0; i < pairs.length; i++) {
+            const pair = pairs[i].split('=');
+            request[pair[0]] = pair[1];
+        }
+
+        let output = JSON.stringify({'command': command, 'tracks': request['tracks'], 'args': args });
+
+        $.ajax('/', {
+            data: output,
+            type: 'POST',
+            timeout: 1000,
+            success: function (data, status, xhr)
+            {
+                //this is response data
+            },
+            error: function( jqXhr, textStatus, errorMessage )
+            {
+              console.log('Error: ' + errorMessage );
+            }
+
+        });
+	    }
     </script>
     <style>
         html, body, div.jbrowse {
