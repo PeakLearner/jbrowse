@@ -8,3 +8,6 @@
 [submodule "plugins/WiggleHighlighter"]
 	path = plugins/WiggleHighlighter
 	url = https://github.com/cmdcolin/wigglehighlighter.git
+[submodule "plugins/PeakLearnerBackend"]
+	path = plugins/PeakLearnerBackend
+	url = https://github.com/deltarod/PeakLearnerBackend.git
