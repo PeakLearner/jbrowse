@@ -1,3 +1,23 @@
+{{$NEXT}}
+
+## Minor improvements
+
+ * Added `customRefRename` and `replaceRefRename` global configs for
+   extending and replacing ref renaming functionality respectively.
+   Ref renaming helps things like chrM and chrMT to be loaded onto the
+   same chromosome in jbrowse (@cmdcolin, pull #1506)
+ * Added support for a -f option for setup.sh. This option causes
+   setup to skip installing perl prerequisites and setting up
+   sample data. It is primarily intended to support faster builds
+   in a Docker context. (@scottcain)
+
+## Bug fixes
+
+ * Fix the display of mismatches from hard clipped BAM sequences (pull #1513)
+
+ * Fix ability to use tracks from Open track dialog in combination tracks.
+   Thanks to Sonny Arora for the repo (pull #1536)
+
 # Release 1.16.9     2020-05-21 16:50:24 UTC
 
 ## Minor improvements

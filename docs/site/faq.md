@@ -23,7 +23,7 @@ In JBrowse 1.13.0 and later, you must rebuild JBrowse
 
 -   download the "-dev" version of JBrowse (or use a git clone, this is equivalent)
 -   put the plugin(s) in the plugins folder
--   run ./setup.sh
+-   run ./setup.sh (you can add a "-f" to this command to make it go faster if you've run setup before)
 
 This will build the plugins properly. The ./setup.sh automatically downloads the npm modules needed for building the codebase.
 
@@ -1291,7 +1291,9 @@ the reads.
 
 -   The "Use XS" option is a RNA-seq specific flag that aligners output
     which detects the strand that a read came from according to
-    canonical splice site. Enable in config using useXS: true
+    canonical splice site. Enable in config using useXS: true.
+    Note also since 1.16.9 this works with standard TS tag. The useTS
+    tag applies to the lower case `ts` tag from minimap2
 -   The "Use reversed template" option is flag normally used for
     "stranded paired-end RNA-seq" data  and it will make both reads in a
     pair look like they are in the same direction, so for example, reads
