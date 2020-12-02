@@ -3,7 +3,7 @@
 	url = ../../elsiklab/multibigwig.git
 [submodule "plugins/InteractivePeakAnnotator"]
 	path = plugins/InteractivePeakAnnotator
-	url = ../interactivepeakannotator.git
+	url = ../../cmdcolin/interactivepeakannotator.git
 [submodule "plugins/WiggleHighlighter"]
 	path = plugins/WiggleHighlighter
 	url = ../../cmdcolin/wigglehighlighter.git
