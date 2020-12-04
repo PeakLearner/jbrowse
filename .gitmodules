@@ -9,4 +9,4 @@
 	url = ../../cmdcolin/wigglehighlighter.git
 [submodule "plugins/PeakLearnerBackend"]
 	path = plugins/PeakLearnerBackend
-	url = ../PeakLearnerPlugin.git
+	url = ../../PeakLearnerPlugin.git
