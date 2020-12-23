@@ -24,7 +24,7 @@
             delete window.require;
         }
 
-        function sendPost(command, args, successCallback, errorCallback)
+        function sendPost(command, url, args, successCallback, errorCallback)
         {
         let query = JSON.stringify({'command': command, 'args': args });
 
@@ -36,7 +36,7 @@
             };
         }
 
-        $.ajax('/', {
+        $.ajax(url, {
             data: query,
             type: 'POST',
             timeout: 60000,
