@@ -180,10 +180,10 @@
   dependencies:
     arrify "^1.0.1"
 
-"@gmod/bam@^1.1.0":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@gmod/bam/-/bam-1.1.3.tgz#541cc67ffd81b5b209731963287c9582136b0bb4"
-  integrity sha512-oObhAGfoh+QeNny2n/kgzSn3jHrkwC5wB/8sa7N06eZZTh/qSkLV6IpaeiYCBE1YfsOWpXKZ9H6y9w7eBZz2VA==
+"@gmod/bam@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@gmod/bam/-/bam-1.1.6.tgz#53a1fd64c2630d6b8a8aa6ca2e4db236e80b5d8a"
+  integrity sha512-8E47E1C6ud7G806NFKsu2dt+tNY0Ob5en4mXjlMjNEMOtQhWWORhNVgCQDXsiDakg+0WUGboa05yfuUBGSCaJQ==
   dependencies:
     "@babel/runtime-corejs3" "^7.5.5"
     "@gmod/bgzf-filehandle" "^1.3.3"
@@ -215,13 +215,14 @@
   dependencies:
     long "^4.0.0"
 
-"@gmod/cram@^1.5.3":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@gmod/cram/-/cram-1.5.4.tgz#76fca95a7f43411cb62ac56477f186e498d38efb"
-  integrity sha512-RCJiuTb0E/kgtnegCVsgH0Be/EmnGoR68hZ0cMEi272ui0pWpRQyTAxPeJH/DFaFrhpELvjt99ByWwW10+wSWA==
+"@gmod/cram@^1.5.9":
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/@gmod/cram/-/cram-1.5.9.tgz#be4db99f01b13ff04b09cc512ee7b924098559b4"
+  integrity sha512-yUGhMCvZytOkbvgHue0EJ9SuH5ae9kA5bc83Wjd9ahoQ5nG9tj6aLFt79nAQmKG789IOV1nql/ITZoymmUT+ow==
   dependencies:
     "@babel/runtime-corejs3" "^7.4.5"
     "@gmod/binary-parser" "^1.3.5"
+    abortable-promise-cache "^1.2.0"
     buffer-crc32 "^0.2.13"
     cross-fetch "^3.0.0"
     es6-promisify "^6.0.1"
@@ -248,10 +249,10 @@
     "@gmod/bgzf-filehandle" "^1.2.4"
     es6-promisify "^6.0.1"
 
-"@gmod/tabix@^1.4.6":
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/@gmod/tabix/-/tabix-1.4.6.tgz#eb6ca6a02eb83fbcf8769b1a438c122c9e2fdc2d"
-  integrity sha512-vczsvIn0fYkjACQWL31p28dg4/42+jOLZOzc9L1giWqTqe5Dr47f9YqBipFBw4tV9A2snQbq/sWSmzYP3lyq8Q==
+"@gmod/tabix@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@gmod/tabix/-/tabix-1.5.0.tgz#69fb4084eecdf7eb35f24e6b64bd4979d98f1162"
+  integrity sha512-wbiYj+3a3xtL9W5hIAaZ4pDIca2isFVHbA5jIecFAFaui2qOkgWbiRctToZWDHSPLrpVuzf2A0TYjx4nswk9ag==
   dependencies:
     "@babel/runtime-corejs2" "^7.3.1"
     "@gmod/bgzf-filehandle" "^1.3.3"
@@ -5091,10 +5092,6 @@ jsprim@^1.2.2:
     extsprintf "1.3.0"
     json-schema "0.2.3"
     verror "1.10.0"
-
-"jszlib@git+https://github.com/cmdcolin/jszlib.git#c966ceac3b283d2248764c09e07a4b268edd5032":
-  version "0.0.1"
-  resolved "git+https://github.com/cmdcolin/jszlib.git#c966ceac3b283d2248764c09e07a4b268edd5032"
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"

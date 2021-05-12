@@ -2280,6 +2280,7 @@ renderTrack: function( /**Object*/ trackConfig ) {
 
         // create the track
 
+
         var track = new trackClass({
                 key: trackConfig.key || metadataKey,
                 refSeq: this.ref,
