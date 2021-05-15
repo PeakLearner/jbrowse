@@ -1,4 +1,4 @@
-module.exports = function(userConfig, defaultConfig, global, window) { this.loaderVersion = "1.16.2"; (function(
+module.exports = function(userConfig, defaultConfig, global, window) { this.loaderVersion = "1.16.4"; (function(
 	userConfig,
 	defaultConfig
 ){
@@ -63,7 +63,7 @@ module.exports = function(userConfig, defaultConfig, global, window) { this.load
 	// The integer constant 1 is used in place of true and 0 in place of false.
 	//
 	// The "foreign-loader" has condition is defined if another loader is being used (e.g. webpack) and this code is only
-	// needed for resolving module identifiers based on the config.  In this case, only the functions require.toUrl and 
+	// needed for resolving module identifiers based on the config.  In this case, only the functions require.toUrl and
 	// require.toAbsMid are supported.  The require and define functions are not supported.
 
 	// define global
@@ -784,7 +784,7 @@ module.exports = function(userConfig, defaultConfig, global, window) { this.load
 				combosPending = [],
 				comboPendingTimer = null;
 		}
-		
+
 
 		// build the loader machinery iaw configuration, including has feature tests
 		var injectDependencies = function(module){
